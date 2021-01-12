@@ -10,7 +10,7 @@ Version:1.0
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: 'helveticaneuemedium';
+	font-family: 'helveticaneuemedium', 'helveticaneuethin', 'helveticaneuelight', 'helveticaneueregular', 'helveticaneuebold', 'helveticaneueblackcond';
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -172,9 +172,9 @@ select,
 optgroup,
 textarea {
 	color: #000000;
-	font-family: 'helveticaneuemedium';
+	font-family: 'helveticaneuemedium', 'helveticaneuethin', 'helveticaneuelight', 'helveticaneueregular', 'helveticaneuebold', 'helveticaneueblackcond';
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -202,7 +202,7 @@ address {
 }
 pre {
 	background: #eee;
-	font-family: 'helveticaneuemedium';
+	font-family: 'helveticaneuemedium', 'helveticaneuethin', 'helveticaneuelight', 'helveticaneueregular', 'helveticaneuebold', 'helveticaneueblackcond';
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -212,7 +212,7 @@ pre {
 	padding: 1.6em;
 }
 code, kbd, tt, var {
-	font-family: 'helveticaneuemedium';
+	font-family: 'helveticaneuemedium', 'helveticaneuethin', 'helveticaneuelight', 'helveticaneueregular', 'helveticaneuebold', 'helveticaneueblackcond';
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -260,8 +260,7 @@ big {
 .section-title p {
 	text-transform: capitalize;
 	position: relative;
-	padding-bottom: 25px;
-	color: #182861 !important;
+	padding-bottom: 20px;
 }
 .section-title p::before {
 	position: absolute;
