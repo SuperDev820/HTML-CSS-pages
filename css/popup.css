@@ -1,0 +1,122 @@
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+}
+
+.popup .popup-header {
+  cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  display: none;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  z-index: 999;
+  left: 115%;
+  animation: fadeOut 0.5s;
+}
+.popup .popuptext .close{
+  color: #fff;
+  cursor: pointer;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-shadow: none;
+  font-size: 11px;
+  background: transparent;
+  color: #737373;
+  border-radius: 100%;
+  border: 1px solid #eee;
+  -webkit-transition:all 0.4s ease;
+  -moz-transition:all 0.4s ease;
+  transition:all 0.4s ease;
+}
+.popup .popuptext .close:hover {
+  color: #fff;
+  border-color:transparent;
+  background: #f9693b;
+}
+.popup .popuptext.show {
+  display: block;
+  animation: fadeIn 0.5s;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-left: -30px;
+  margin-top: -30px;
+  content: " ";
+  border-right: 30px solid white;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+.popup .popuptext.changed::after {
+  top: 38% !important;
+}
+/* Toggle this class - hide and show the popup */
+.popup .popuptext .active.show {
+  visibility: hidden !important;
+}
+.popup .popuptext.show .active.show {
+  visibility: visible !important;
+}
+.popup .popuptext button {
+  width: 155px;
+  height: 40px;
+}
+
+.popup .popuptext .nice-select {
+  width:  100% !important;
+  font-size: 18px;
+  padding: 8px 0;
+  margin: 8px 0 !important;
+  color: #182861;
+  font-weight: 500;
+}
+
+.popup .popuptext .nice-select .list .disabled {
+  display: none;
+}
+
+.popup .popuptext .price-tabs ul li {
+  width: 50%;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.popup .popuptext .md-input {
+  margin-bottom: 8px;
+  background: transparent;
+  position: relative;
+  z-index: 5;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #203b5626;
+  text-align: right;
+  width: 100%;
+  color: #182861;
+  font-size: 24px;
+  padding: 3px 0;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
