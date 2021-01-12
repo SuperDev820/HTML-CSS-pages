@@ -10,7 +10,7 @@ Version:1.0
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: 'Maven Pro', sans-serif;
+	font-family: 'helveticaneuemedium';
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -172,7 +172,7 @@ select,
 optgroup,
 textarea {
 	color: #000000;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: 'helveticaneuemedium';
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
@@ -202,7 +202,7 @@ address {
 }
 pre {
 	background: #eee;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'helveticaneuemedium';
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -212,7 +212,7 @@ pre {
 	padding: 1.6em;
 }
 code, kbd, tt, var {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'helveticaneuemedium';
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -261,6 +261,7 @@ big {
 	text-transform: capitalize;
 	position: relative;
 	padding-bottom: 25px;
+	color: #182861 !important;
 }
 .section-title p::before {
 	position: absolute;
@@ -293,7 +294,7 @@ big {
 	margin-left: -25px;
 }
 .container{
-	max-width:1170px;
+	max-width:1250px;
 }
 .overlay{
 	position:relative

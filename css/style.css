@@ -212,12 +212,13 @@ Version:1.0
 	border-color: blue;
 	border-radius: 0 !important;
 }
-.button-default-circle {
+.button-primary-circle {
 	height: 37px;
-    border: 1px solid black;
+    border: 1px solid #182861;
     border-radius: 19px;
     width: 80%;
     margin: 0 auto;
+    color: #182861;
 }
 .button-secondary{
 	background: #f6f7fb;
@@ -769,6 +770,7 @@ Version:1.0
 	padding-top: 20px;
 	background: #fff;
 	/*border-bottom: 2px solid #ddd;*/
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .header.shop.v3 .middle-inner {
 	border:none;
@@ -5267,7 +5269,7 @@ Version:1.0
   }
   .car-card {
   	/*border: 2px solid #ddd;*/
-    padding: 40px 30px;
+    padding: 30px;
     margin-bottom: 70px;
     /*box-shadow: 0px 0px 15px 5px #ddd;*/
   }
@@ -5354,7 +5356,7 @@ Version:1.0
   }
   .checked {
   	color: white;
-    background: #12dac8;
+    background: #00AAD1;
     border-radius: 50%;
     width: 25px;
     height: 25px;
@@ -5363,7 +5365,7 @@ Version:1.0
   }
   .exclamation {
   	color: white;
-    background: red;
+    background: #FF6D55;
     border-radius: 50%;
     width: 25px;
     height: 25px;
@@ -5382,16 +5384,49 @@ Version:1.0
   }
   .price-tab-content {
   	border-bottom: 2px solid #bfb8b8;
-  	padding: 22px 70px;
+  	padding: 20px 70px;
   	display: flex;
   	justify-content: space-between;
   	align-items: center;
   }
-  .finance .price-tab-content {
-    padding: 17px 70px;
+  /*.after-number::after {
+  	position: absolute;
+    right: 155px;
+    transition: all .05s ease-in-out;
+  }
+  .after-number:hover::after,
+  .after-number:focus-within::after {
+    right: 155px;
+  }*/
+  .price-tab-content-rate {
+  	position: relative;
+  }
+  .price-tab-content-rate .md-input {
+  	text-align: center;
+  }
+  .price-tab-content-period {
+  	position: relative;
+  }
+  .price-tab-content-period .md-input {
+  	text-align: center;
+  }
+  .price-tab-content-rate::after {
+    content: '%';
+    font-size: 26px;
+    position: absolute;
+    right: 93px;
+  }
+  .price-tab-content-period::after {
+    content: 'Year';
+    font-size: 26px;
+    position: absolute;
+    right: 93px;
   }
   .price-tab-content span{
   	font-size: 20px;
+  }
+  .finance .price-tab-content {
+    padding: 17px 70px;
   }
   .md-input {
     background: transparent;
@@ -5403,7 +5438,7 @@ Version:1.0
     border-bottom: 1px solid #e8e8e8 !important;
     width: 40%;
     text-align: right;
-    color: #182861;
+    color: #182861 !important;
     font-size: 26px;
     padding: 3px;
   }
@@ -5486,24 +5521,7 @@ Version:1.0
   .shadow-div {
   	box-shadow: 0px 0px 10px 5px #ddd;
   }
-  /*.after-number::after {
-  	position: absolute;
-    right: 155px;*/
-    /*transition: all .05s ease-in-out;*/
-  /*.after-number:hover::after,
-  .after-number:focus-within::after {
-    right: 155px;
-  }*/
-
-  /*.price-tab-content-rate::after {
-    content: '%';
-    font-size: 26px;
-  }
-  .price-tab-content-period::after {
-    content: 'Year';
-    font-size: 26px;
-  }*/
-  
+    
   button:focus {
     outline: none;
   }
@@ -5622,7 +5640,10 @@ Version:1.0
   }
   .spec-info div {
     background: #fff4f4;
-        padding: 10px 20px
+    padding: 10px 20px
+  }
+  .spec-info div p {
+  	color: #182861;
   }
   .angle-div {
     border: 2px solid;
@@ -5684,4 +5705,43 @@ Version:1.0
   }
   .features.show {
 	display: block;
-}
+  }
+  .phone {
+  	position: relative;
+  	margin-top: 15px;
+  	width: 760px;
+  	display: flex;
+    flex-direction: row-reverse;
+  }
+  .phone .phone-icon {
+  	border: 1px solid #f9693b;
+  	border-radius: 50%;
+  	width: 70px;
+  	height: 70px;
+  	position: absolute;
+  	left: 0;
+    background: white;
+    bottom: -12px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.3);
+  }
+  .phone .phone-icon i {
+  	font-size: 36px;
+  }
+  .phone .phone-number {
+  	padding: 18px 22px;
+  	width: 725px;
+  	box-shadow: 1px 2px 6px -1px rgba(0, 0, 0, 0.3);
+  }
+  .phone .phone-number span {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+  .producttab-div {
+  	background:#e5f0fb;
+  	padding: 22px 150px;
+  }
+  .producttab-div span {
+  	padding-right: 15px;
+  	color: #81C2B0;
+  }

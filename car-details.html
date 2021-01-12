@@ -12,7 +12,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!-- Web Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     
     <!-- StyleSheet -->
     
@@ -140,7 +140,7 @@
                         <div className="showDisplay" style="margin-left: -40px;">
                             <iframe className="displayPos" src="https://spins.spincar.com/youngleasing/wbs2u7c57kvb09277!disablewatermark!hidevehiclehits!hidefeaturetour!hidelivevideo!hideexpandbtn!hideCarousel" title="SpinCar" allow="fullscreen" scrolling="no" frameborder="none" style="width: 900px;height: 400px"></iframe>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center" style="padding: 25px 0px;">
+                        <div class="d-flex align-items-center justify-content-center" style="padding: 27px 0px;">
                             <div class="pr-2" style="width: 235px;">
                                 <img src="images/car-detail2.png" alt="Car Detail" style="height: 170px;">
                             </div>
@@ -152,8 +152,15 @@
                             </div>
                             <div class="text-center" style="font-size: 16px;"><span>+ 24<br>photos</span></div>
                         </div>
-                        <div class="text-center" style="font-weight: 500;color: black;line-height: 35px;padding-top: 30px;">
-                            <span style="font-size: 40px;">CALL CARNEX: (905) 276-1170</span>
+                        <div class="d-flex justify-content-center">
+                            <div class="phone">
+                                <div class="d-flex align-items-center justify-content-center phone-icon">
+                                    <i class="fas fa-phone-alt price"></i>
+                                </div>
+                                <div class="text-right phone-number">
+                                    <span>Call our carnex advisor: (905) 276-1170</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 px-0">
@@ -176,7 +183,7 @@
                             </div>
                             <div style="padding: 18px 0;">
                                 <p class="text-lg" style="padding-bottom: 15px;">Description</p>
-                                <span class="text-md" style="line-height: 28px;">Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis<br>velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat.<br>Fusce aliquam vestibulum ipsum. Nullam faucibus mi quis velit. Integer in sapien. Fusce<br>tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum.</span>
+                                <span class="text-md" style="line-height: 28px;">Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis<br>velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat.<br>Fusce aliquam vestibulum ipsum. Nullam faucibus mi quis velit. Integer in sapien. Fusce<br>tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum <br>ipsum.</span>
                             </div>
                             <div class="d-flex justify-content-between" style="padding: 18px 0;">
                                 <div class="d-flex">
@@ -202,38 +209,78 @@
             <div class="car-card">
                 <div class="container">
                     <div class="section-title">
-                        <p style="font-size: 30px;">Specifications</p>
+                        <p style="font-size: 30px;">SPECIFICATIONS</p>
                     </div>
-                    <div class="row text-md" style="margin: 0 60px 30px 60px;;line-height: 35px;">
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Drivetrain<br>AUTO AWD</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Horsepower<br>248 HP</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>VIN<br>WAUCNAF40KA028244</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Keys<br>2 (Two)</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Engine<br>4.0 V8</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Fuel, Type, Capacity<br>12L/100km, Gas, 58L</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Torque<br>273 lb-ft</span></div></div>
-                        <div class="col-md-6 col-lg-3 spec-info"><div><span>Doors<br>4 Door SUV</span></div></div>
+                    <div class="row text-md" style="margin-bottom: 30px;;line-height: 35px;">
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Drivetrain</p>
+                                <p class="text-lg">AUTO AWD</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Horsepower</p>
+                                <p class="text-lg">248 HP</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">VIN</p>
+                                <p class="text-lg">WAUCNAF40KA028244</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Keys</p>
+                                <p class="text-lg">2 (Two)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Engine</p>
+                                <p class="text-lg">4.0 V8</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Fuel, Type, Capacity</p>
+                                <p class="text-lg">12L/100km, Gas, 58L</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Torque</p>
+                                <p class="text-lg">273 lb-ft</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 spec-info">
+                            <div>
+                                <p class="text-muted">Doors</p>
+                                <p class="text-lg">4 Door SUV</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="features">
                         <div class="section-title" style="margin-bottom: 30px;">
-                            <p style="font-size: 30px;">Features</p>
+                            <p style="font-size: 30px;">FEATURES</p>
                         </div>
                         <div class="text-center" style="margin-bottom: 30px;">
                             <button class="button-default-yellow">Download Vehicle Brochure</button>
                         </div>
-                        <div class="row text-md" style="margin: 0 60px 30px 60px;;line-height: 35px;">
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Backup Camera</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>AUX</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Power Sunroof</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Bang & Olufsen Audio</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>WIFI Hotspots</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Bluetooth</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Leather Seats</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Navigation</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Brake Assist</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Cross-Traffic Alert</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Blindspot Detection</span></div></div>
-                            <div class="col-md-6 col-lg-3 spec-info"><div><span>Automatic Wipers</span></div></div>
+                        <div class="row text-md" style="margin-bottom: 30px;;line-height: 35px;">
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Backup Camera</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>AUX</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Power Sunroof</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Bang & Olufsen Audio</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>WIFI Hotspots</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Bluetooth</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Leather Seats</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Navigation</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Brake Assist</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Cross-Traffic Alert</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Blindspot Detection</p></div></div>
+                            <div class="col-md-6 col-lg-3 spec-info"><div><p>Automatic Wipers</p></div></div>
                         </div>
                     </div>
                     <div class="text-center text-lg" style="color: #f9693b;text-decoration: underline;">
@@ -245,7 +292,7 @@
             <div class="car-card">
                 <div style="margin: 0 100px;">
                     <div class="section-title">
-                        <p style="font-size: 30px;">Our Promise</p>
+                        <p style="font-size: 30px;">OUR PROMISE</p>
                     </div>
                     <div class="d-flex justify-content-between">
                         <div class="text-center">
@@ -275,7 +322,7 @@
             <div class="car-card">
                 <div style="margin: 0 100px;">
                     <div class="section-title">
-                       <p style="font-size: 30px;">Mechanic’s 150 Point Inspection</p>
+                       <p style="font-size: 30px;">MECHANIC'S 170 POINT INSPECTION</p>
                     </div>
                     <div class="product-area">
                         <div class="product-info">
@@ -332,59 +379,59 @@
                                 <div class="tab-pane fade show active" id="tab1" role="tabpanel">
                                     <div class="row" style="margin: 5px 8px 5px 6px">
                                         <div class="col-md-6 pr-2" style="padding-left: 0;">
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Interior</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">3 findings</span>
+                                                    <span>3 findings</span>
                                                     <i class="fa fa-exclamation exclamation"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Muffler</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Windshield</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Bumpers</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 pl-2" style="padding-right: 0;">
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Panels</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Doors</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Mirrors</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
                                             <div class="text-center my-2" style="background:#e5f0fb;padding: 16px 0;">
-                                                <a href="inspection.html" class="button button-default-circle" style="font-size: 24px;">REVIEW ENTIRE 150 POINT INSPECTION</a>
+                                                <a href="inspection.html" class="button button-primary-circle" style="font-size: 24px;">REVIEW ENTIRE 150 POINT INSPECTION</a>
                                             </div>
                                         </div>
                                     </div>
@@ -394,59 +441,59 @@
                                 <div class="tab-pane fade" id="tab2" role="tabpanel">
                                     <div class="row" style="margin: 5px 8px 5px 6px">
                                         <div class="col-md-6 pr-2" style="padding-left: 0;">
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Interior</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">3 findings</span>
+                                                    <span>3 findings</span>
                                                     <i class="fa fa-exclamation exclamation"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Muffler</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Windshield</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Bumpers</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 pl-2" style="padding-right: 0;">
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Panels</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Doors</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Mirrors</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
                                             <div class="text-center my-2" style="background:#e5f0fb;padding: 16px 0;">
-                                                <a href="inspection.html" class="button button-default-circle" style="font-size: 24px;">REVIEW ENTIRE 150 POINT INSPECTION</a>
+                                                <a href="inspection.html" class="button button-primary-circle" style="font-size: 24px;">REVIEW ENTIRE 150 POINT INSPECTION</a>
                                             </div>
                                         </div>
                                     </div>
@@ -456,59 +503,59 @@
                                 <div class="tab-pane fade" id="tab3" role="tabpanel">
                                     <div class="row" style="margin: 5px 8px 5px 6px">
                                         <div class="col-md-6 pr-2" style="padding-left: 0;">
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Interior</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">3 findings</span>
+                                                    <span>3 findings</span>
                                                     <i class="fa fa-exclamation exclamation"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Muffler</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Windshield</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Bumpers</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 pl-2" style="padding-right: 0;">
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Panels</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Doors</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-between text-md my-2" style="background:#e5f0fb;padding: 22px 150px;">
+                                            <div class="d-flex justify-content-between text-md my-2 producttab-div">
                                                 <p>Mirrors</p>
                                                 <div>
-                                                    <span style="padding-right: 15px;color: #12dac8;">Passed</span>
+                                                    <span>Passed</span>
                                                     <i class="fa fa-check checked"></i>
                                                 </div>
                                             </div>
                                             <div class="text-center my-2" style="background:#e5f0fb;padding: 16px 0;">
-                                                <a href="inspection.html" class="button button-default-circle" style="font-size: 24px;">REVIEW ENTIRE 150 POINT INSPECTION</a>
+                                                <a href="inspection.html" class="button button-primary-circle" style="font-size: 24px;">REVIEW ENTIRE 150 POINT INSPECTION</a>
                                             </div>
                                         </div>
                                     </div>
@@ -567,7 +614,7 @@
             <div class="car-card">
                 <div style="margin: 0 100px;">
                     <div class="section-title">
-                       <p style="font-size: 30px;">Buy This Car</p>
+                       <p style="font-size: 30px;">BUY THIS CAR</p>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
@@ -593,9 +640,9 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <div class="mx-5" style="border: 2px solid #eee;color: #182861;">
-                                <div class="text-center" style="padding: 30px 0;">
-                                    <span class="text-lg">Car Loan Payment Estimator</span>
+                            <div class="mx-5" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);;color: #182861;">
+                                <div class="text-center" style="padding: 20px 0;">
+                                    <span class="text-md text-muted">Car Loan Payment Estimator</span>
                                 </div>
                                 <div class="car-loan-tabs text-lg">
                                     <ul class="nav" id="priceTab" role="tablist">
@@ -617,7 +664,7 @@
                                             <span class="text-muted">Vehicle</span>
                                             <input class="md-input" value="$54,789.00">
                                         </div>
-                                        <div class="price-tab-content price-tab-content-rate after-number">
+                                        <div class="price-tab-content price-tab-content-rate">
                                             <span class="text-muted">Interest Rate</span>
                                             <!-- <p style="color: #182861;font-size: 26px;">3.30%</p> -->
                                             <input class="md-input" type="number" value="3.30" step="0.01">
@@ -627,7 +674,7 @@
                                             <!-- <p style="color: #182861;font-size: 26px;">$5,000.00</p> -->
                                             <input class="md-input" value="$5,000.00">
                                         </div>
-                                        <div class="price-tab-content price-tab-content-period after-number">
+                                        <div class="price-tab-content price-tab-content-period">
                                             <span class="text-muted">Loan Period <br>(Terms in months)</span>
                                             <!-- <p style="color: #182861;font-size: 26px;">1 Year</p> -->
                                             <input class="md-input" type="number" value="1" step="1">
@@ -637,7 +684,7 @@
                                             <!-- <p style="color: #182861;font-size: 40px;">$859.33</p> -->
                                             <input class="md-input" style="font-size: 40px;" value="$859.33">
                                         </div>
-                                        <button class="button-primary text-lg" style="width: 100%;height: 96px;">Apply For A Loan</button>
+                                        <button class="button-primary text-lg" style="width: 100%;height: 90px;">Apply For A Loan</button>
                                     </div>
                                     <div class="tab-pane fade" id="price-tab2" role="tabpanel">
                                         <div class="price-tab-content">
@@ -664,7 +711,7 @@
                                             <!-- <p style="color: #182861;font-size: 40px;">$859.33</p> -->
                                             <input class="md-input" style="font-size: 40px;" value="$859.33">
                                         </div>
-                                        <button class="button-primary text-lg" style="width: 100%;height: 96px;">Apply For A Loan</button>
+                                        <button class="button-primary text-lg" style="width: 100%;height: 90px;">Apply For A Loan</button>
                                     </div>
                                 </div>
                             </div>
@@ -675,7 +722,7 @@
             <div class="car-card">
                 <div style="margin: 0 100px;">
                     <div class="section-title">
-                       <p style="font-size: 30px;">You May Also Like</p>
+                       <p style="font-size: 30px;">YOU MAY ALSO LIKE</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-12">
@@ -767,39 +814,36 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 col-12">
-                            <div class="single-product">
-                                <div class="product-img overlay">
-                                    <img class="default-img" src="images/car.png" alt="#">
-                                    <div class="img-heart1">
-                                        <i class="fa fa-heart-o"></i>
-                                    </div>
-                                    <div class="sold d-flex align-items-center justify-content-center">
-                                        <div>
-                                            <span><b>carnex</b></span><br>
-                                            <span style="font-size: 11px">SOLD</span><br>
-                                            <span style="font-size: 11px">PENDING</span>
+                                <div class="single-product">
+                                    <div class="product-img overlay">
+                                        <img class="default-img" src="images/car.png" alt="#">
+                                        <div class="sold d-flex align-items-center justify-content-center">
+                                            <div style="line-height: 14px;">
+                                                <span><b>carnex</b></span><br>
+                                                <span style="font-size: 11px">SOLD</span><br>
+                                                <span style="font-size: 11px">PENDING</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product-content">
-                                    <div class="d-flex">
-                                        <h3 class="pr-2"><a href="car-details.html">2016 Mercedes C63S</a></h3>
-                                        <div style="padding-top: 7px"><span class="text-sm pt-1">AMG</span></div>
-                                    </div>
-                                    <div style="height: 18px;"></div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="">
-                                            <div class="text-md"><span>20,000</span></div>
-                                            <div><span class="text-muted text-sm">Kilometers</span></div>
+                                    <div class="product-content">
+                                        <div class="d-flex">
+                                            <h3 class="pr-2"><a href="car-details.html">2016 Mercedes C63S</a></h3>
+                                            <div style="padding-top: 7px"><span class="text-sm pt-1">AMG</span></div>
                                         </div>
-                                        <div class="product-price text-right">
-                                            <div><span>$83,065</span></div>
-                                            <div><span class="text-sm">EST $710/mo</span></div>
+                                        <div style="height: 18px;"></div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="">
+                                                <div class="text-md"><span>20,000</span></div>
+                                                <div><span class="text-muted text-sm">Kilometers</span></div>
+                                            </div>
+                                            <div class="product-price text-right">
+                                                <div><span>$83,065</span></div>
+                                                <div><span class="text-sm">EST $710/mo</span></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
