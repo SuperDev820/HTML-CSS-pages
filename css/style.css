@@ -186,11 +186,14 @@ Version:1.0
 	padding: 13px 32px;
 	border-radius: 0px;
 }
-.button-primary{
-	background: #182861;
-    color: white !important;
-    border: none !important;
-	border-radius: 0 !important;
+
+.button-yellow{
+	background: #f9693b;
+    color: white;
+	border: none !important;
+	border-radius: 35px;
+	height: 40px;
+	width: 48%;
 }
 .button-default-yellow {
 	background: white;
@@ -198,34 +201,49 @@ Version:1.0
     height: 40px;
     width: 48%;
 	color: #f9693b !important;
-    border-radius: 20px;
+    border-radius: 35px;
 }
-.button-yellow{
-	background: #f9693b;
-    color: white;
-    border: none !important;
-	border-radius: 0 !important;
+.button-primary{
+	background: #182861;
+    color: white !important;
+	border: none !important;
+	border-radius: 35px;
+	height: 40px;
 }
-.button-default{
-	background: white;
-	color: black;
-	border-color: blue;
-	border-radius: 0 !important;
-}
-.button-primary-circle {
-	height: 37px;
+.button-default-primary {
     border: 1px solid #182861;
-    border-radius: 19px;
-    width: 75%;
-    margin: 0 auto;
+    border-radius: 35px;
+	width: 75%;
+	height: 37px;
     color: #182861 !important;
 }
 .button-secondary{
 	background: #f6f7fb;
     color: grey;
-    border: none !important;
-	border-radius: 0 !important;
+	border: none !important;
+	border-radius: 35px;
 }
+.button-default{
+	background: white;
+	color: black;
+	border-color: blue;
+	border-radius: 35px;
+}
+.buy-trade-btn {
+	width: 100%;
+    border-radius: 50px;
+  	height: 50px;
+  	margin: 25px 0;
+  	background: white;
+    border:2px solid #182861;
+    transition: all 0.4s ease;
+    font-size: 16px;
+  }
+/* .buy-trade-btn:hover {
+    background: #182861;
+	color: white;
+} */
+
 #scrollUp {
 	right: 10px;
 	z-index: 33;
@@ -5305,36 +5323,7 @@ Version:1.0
   p {
   	color: black;
   }
-  .buy-trade-btn {
-	width: 100%;
-    border-radius: 50px;
-  	height: 50px;
-  	margin: 25px 0;
-  	background: white;
-    border:2px solid #182861;
-    transition: all 0.4s ease;
-    font-weight: 500;
-    font-size: 16px;
-  }
-  .buy-trade-btn:hover {
-  	background: #182861;
-  	color: white;
-  }
-  .btn-blue-default {
-	width: 100%;
-    border-radius: 50px;
-  	height: 50px;
-  	margin: 25px 0;
-  	background: white;
-    border:2px solid #00ADF4;
-    transition: all 0.4s ease;
-    font-weight: 500;
-    font-size: 16px;
-  }
-  .btn-blue-default:hover {
-  	background: #00ADF4;
-  	color: white;
-  }
+  
   .product-info ul li {
   	width: 32.7%;
     font-size: 28px;
@@ -5550,11 +5539,6 @@ Version:1.0
     align-items: center;
     margin: 0 auto;
   }
-  .button-circle {
-    width: 20%;
-    height: 50px;
-    border-radius: 25px;
-  }
   .accutrade-select .nice-select .list .disabled {
     display: none;
   }
@@ -5645,6 +5629,16 @@ Version:1.0
   .spec-info div p {
   	color: #182861;
   }
+  .spec-feature-info {
+    margin: 10px 0;
+  }
+  .spec-feature-info div {
+    background: #fff4f4;
+    padding: 18px 25px;
+  }
+  .spec-feature-info div p {
+  	color: #182861;
+  }
   .angle-div {
     border: 2px solid;
     border-radius: 50%;
@@ -5709,7 +5703,7 @@ Version:1.0
   .phone {
   	position: relative;
   	margin-top: 15px;
-  	width: 715px;
+  	width: 710px;
   	display: flex;
     flex-direction: row-reverse;
   }
@@ -5728,14 +5722,18 @@ Version:1.0
   	font-size: 36px;
   }
   .phone .phone-number {
-  	padding: 16px 12px;
+  	padding: 16px;
   	width: 680px;
   	box-shadow: 1px 2px 6px -1px rgba(0, 0, 0, 0.3);
   }
   .phone .phone-number span {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 37px;
+    line-height: 37px;
     font-weight: 600;
+  }
+  .header .phone-number {
+	  font-weight: 600;
+	  font-size: 34px;
   }
   .producttab-div {
   	background:#e5f0fb;
@@ -5744,4 +5742,7 @@ Version:1.0
   .producttab-div span {
   	padding-right: 15px;
   	color: #81C2B0;
+  }
+  .font-weight-300 {
+	font-weight: 300;
   }
