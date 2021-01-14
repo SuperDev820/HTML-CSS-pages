@@ -245,7 +245,7 @@ big {
 	position: relative;
 	font-weight: 700;
 	margin-bottom: 10px;
-	padding-bottom: 15px;
+	padding-top: 15px;
 }
 .section-title h1 {
 	font-size: 2.5rem;
@@ -253,42 +253,42 @@ big {
 	position: relative;
 	font-weight: 700;
 	margin-bottom: 10px;
-	padding-bottom: 15px;
+	padding-top: 15px;
 }
 .section-title p {
 	text-transform: capitalize;
 	position: relative;
-	padding-bottom: 20px;
+	padding-top: 20px;
 	font-weight: 600;
 }
 .section-title p::before {
 	position: absolute;
 	content: "";
-	height: 3px;
+	height: 4px;
 	width: 50px;
 	background: #f9693b;
 	left: 50%;
-	bottom: 0;
+	top: 0;
 	margin-left: -25px;
 }
 .section-title h1::before {
 	position: absolute;
 	content: "";
-	height: 3px;
+	height: 4px;
 	width: 50px;
 	background: #f9693b;
 	left: 50%;
-	bottom: 0;
+	top: 0;
 	margin-left: -25px;
 }
 .section-title h2::before {
 	position: absolute;
 	content: "";
-	height: 3px;
+	height: 4px;
 	width: 50px;
 	background: #1aad1a;
 	left: 50%;
-	bottom: 0;
+	top: 0;
 	margin-left: -25px;
 }
 .container{

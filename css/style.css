@@ -5052,6 +5052,9 @@ Version:1.0
 .text-lg {
 	font-size: 22px !important;
 }
+.text-muted {
+	color: #a6aeb7 !important;
+}
 /* End */
 /* Ribbon */
   .ribbon {
@@ -5296,10 +5299,11 @@ Version:1.0
   }
   .content {
   	padding-left: 15px;
-    padding-right: 25px; 
+    padding-right: 25px;
+    padding-top: 24px;
   }
   .car-detail-list {
-  	padding: 15px 0;
+  	padding: 5px 0;
   }
   .car-detail-list ul li{
   	padding: 7px 0;
@@ -5326,7 +5330,7 @@ Version:1.0
   
   .product-info ul li {
   	width: 32.7%;
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
     background: #eee;
     padding: 15px 0;
@@ -5620,24 +5624,20 @@ Version:1.0
     outline: none;
   }
   .spec-info {
-    margin: 10px 0;
+    margin-bottom: 40px;
+    font-weight: 600;
+    padding-left: 40px;
   }
-  .spec-info div {
-    background: #fff4f4;
-    padding: 25px
-  }
-  .spec-info div p {
+  .spec-info p {
   	color: #182861;
   }
   .spec-feature-info {
-    margin: 10px 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
   }
-  .spec-feature-info div {
-    background: #fff4f4;
-    padding: 18px 25px;
-  }
-  .spec-feature-info div p {
+  .spec-feature-info p {
   	color: #182861;
+  	font-size: 14px;
   }
   .angle-div {
     border: 2px solid;
@@ -5695,7 +5695,7 @@ Version:1.0
   }
   .features {
 	display: none;
-	margin-top: 50px;
+	margin-top: 80px;
   }
   .features.show {
 	display: block;
