@@ -87,18 +87,14 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-12">
                         <div class="right-bar row">
-                            <div class="sinlge-bar col-md-3">
+                            <!-- <div class="sinlge-bar col-md-3">
                                 <a href="#" class="single-icon"><i class="fa fa-balance-scale" aria-hidden="true"></i></a>
-                            </div>
+                            </div> -->
                             <div class="sinlge-bar col-md-3">
                                 <a href="#" class="single-icon"><i class="far fa-heart" aria-hidden="true"></i></a>
                             </div>
                             <div class="sinlge-bar col-md-3">
                                 <a href="account-detail.html" class="single-icon"><i class="far fa-user-circle" aria-hidden="true"></i></a>
-                                <!-- <ul class="dropdown">
-                                    <li><a href="#">My profile</a></li>
-                                    <li><a href="#">Log out</a></li>
-                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -793,13 +789,13 @@
                                         <div id="inspectionCarousel1" class="carousel inspection-carousel slide col-6" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                  <img src="images/impefection1.png" class="d-block w-100" alt="...">
+                                                  <img src="images/imspection1.png" class="d-block w-100" alt="...">
                                                 </div>
                                                 <div class="carousel-item">
-                                                  <img src="images/impefection2.png" class="d-block w-100" alt="...">
+                                                  <img src="images/imspection2.png" class="d-block w-100" alt="...">
                                                 </div>
                                                 <div class="carousel-item">
-                                                  <img src="images/impefection3.png" class="d-block w-100" alt="...">
+                                                  <img src="images/imspection3.png" class="d-block w-100" alt="...">
                                                 </div>
                                             </div>
                                             <div class="text-center text-md my-3">
@@ -815,13 +811,13 @@
                                         <div id="inspectionCarousel2" class="carousel inspection-carousel slide col-6" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                  <img src="images/impefection1.png" class="d-block w-100" alt="...">
+                                                  <img src="images/imspection1.png" class="d-block w-100" alt="...">
                                                 </div>
                                                 <div class="carousel-item">
-                                                  <img src="images/impefection2.png" class="d-block w-100" alt="...">
+                                                  <img src="images/imspection2.png" class="d-block w-100" alt="...">
                                                 </div>
                                                 <div class="carousel-item">
-                                                  <img src="images/impefection3.png" class="d-block w-100" alt="...">
+                                                  <img src="images/imspection3.png" class="d-block w-100" alt="...">
                                                 </div>
                                             </div>
                                             <div class="text-center text-md my-3">
@@ -840,7 +836,7 @@
                                             <!-- Start Single Product -->
                                             <div class="single-product mx-3">
                                                 <div class="product-img">
-                                                    <img class="default-img" src="images/impefection1.png" alt="Impefection">
+                                                    <img class="default-img" src="images/imspection1.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                                 </div>
                                                 <div class="product-content text-center text-md">
                                                     <span>Odometer inaccurate</span>
@@ -850,7 +846,7 @@
                                             <!-- Start Single Product -->
                                             <div class="single-product mx-3">
                                                 <div class="product-img">
-                                                    <img class="default-img" src="images/impefection2.png" alt="Impefection">
+                                                    <img class="default-img" src="images/imspection2.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                                 </div>
                                                 <div class="product-content text-center text-md">
                                                     <span>Leather scratched</span>
@@ -860,7 +856,7 @@
                                             <!-- Start Single Product -->
                                             <div class="single-product mx-3">
                                                 <div class="product-img">
-                                                    <img class="default-img" src="images/impefection3.png" alt="Impefection">
+                                                    <img class="default-img" src="images/imspection3.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                                 </div>
                                                 <div class="product-content text-center text-md">
                                                     <span>Roof scratched</span>
@@ -870,7 +866,7 @@
                                             <!-- Start Single Product -->
                                             <div class="single-product mx-3">
                                                 <div class="product-img">
-                                                    <img class="default-img" src="images/impefection4.png" alt="Impefection">
+                                                    <img class="default-img" src="images/imspection4.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                                 </div>
                                                 <div class="product-content text-center text-md">
                                                     <span>OEM handle scratched</span>
@@ -897,6 +893,17 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal imageModal-->
+        <div class="modal fade" id="imageModal" tabindex="-1" role="dialog">
+            <button type="button" class="close" style="margin-top: 10px;" data-dismiss="modal" aria-label="Close"><span class="fa fa-times" aria-hidden="true"></span></button>
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <img alt="image" id="modal-image">
+                </div>
+            </div>
+        </div>
+        <!-- imageModal end -->
             
         <!-- Start Footer Area -->
         <footer class="footer">
@@ -1022,5 +1029,6 @@
     <script src="js/active.js"></script>
 
     <script src="js/tab.js"></script>
+    <script src="js/image-modal.js"></script>
 </body>
 </html>

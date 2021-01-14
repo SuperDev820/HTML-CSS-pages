@@ -79,12 +79,12 @@
                             <div class="mt-2"><span style="font-size: 27px;font-weight: bold;">2016 Mercedes C63S AMG</span></div>
                         </div>
                         <div class="mr-4">
-                            <button class="button-yellow" style="width: 280px;height: 50px;font-size: 16px" data-toggle="modal" data-target="#startModal1">
+                            <button class="button-yellow" style="width: 280px;height: 56px;font-size: 16px;line-height: 18px;" data-toggle="modal" data-target="#startModal1">
                                 Get Started<br>
                                 <span style="font-weight: 300;">Call carnex: 888-384-1029</span>
                             </button>
                         </div>
-                        <div><i class="far fa-heart" style="font-size: 26px;"></i></div>
+                        <div class="sticky-heart"><i class="far fa-heart"></i></div>
                     </div>
                 </div>
             </div>
@@ -115,9 +115,9 @@
                     </div>
                     <div class="col-lg-2 col-md-2 col-12">
                         <div class="right-bar row">
-                            <div class="sinlge-bar col-md-3">
+                            <!-- <div class="sinlge-bar col-md-3">
                                 <a href="#" class="single-icon"><i class="fa fa-balance-scale" aria-hidden="true"></i></a>
-                            </div>
+                            </div> -->
                             <div class="sinlge-bar col-md-3">
                                 <a href="#" class="single-icon"><i class="far fa-heart" aria-hidden="true"></i></a>
                             </div>
@@ -142,15 +142,15 @@
                             </div>
                             <iframe className="displayPos" src="https://spins.spincar.com/youngleasing/wbs2u7c57kvb09277!disablewatermark!hidevehiclehits!hidefeaturetour!hidelivevideo!hideexpandbtn!hideCarousel" title="SpinCar" allow="fullscreen" scrolling="no" frameborder="none" style="width: 900px;height: 400px"></iframe>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center" style="padding-top: 26px;">
-                            <div class="pr-2" style="width: 240px;">
-                                <img src="images/car-detail2.png" alt="Car Detail" style="height: 170px;">
+                        <div class="top-images d-flex align-items-center justify-content-center">
+                            <div class="pr-2">
+                                <img src="images/car-detail2.png" alt="Car Detail" class="top-image" data-toggle="modal" data-target="#imageModal">
                             </div>
-                            <div class="pr-2" style="width: 240px;">
-                                <img src="images/car-detail3.png" alt="Car Detail" style="height: 170px;">
+                            <div class="pr-2">
+                                <img src="images/car-detail3.png" alt="Car Detail" class="top-image" data-toggle="modal" data-target="#imageModal">
                             </div>
-                            <div class="pr-2" style="width: 240px;">
-                                <img src="images/car-detail4.png" alt="Car Detail" style="height: 170px;">
+                            <div class="pr-2">
+                                <img src="images/car-detail4.png" alt="Car Detail" class="top-image" data-toggle="modal" data-target="#imageModal">
                             </div>
                         </div>
                         <!-- <div class="d-flex justify-content-center">
@@ -171,7 +171,7 @@
                                     <span style="font-size: 50px;padding-right: 20px;font-weight: 600;line-height: 36px;">$54,780 CAD</span>
                                     <span style="font-size: 20px;padding-top: 14px;">EST $612/monthly</span>
                                 </div>
-                                <div><a href="#"><i class="fa fa-heart" style="font-size: 30px;"></i></a></div>
+                                <div class="header-heart"><i class="fa fa-heart"></i></div>
                             </div>
                             <div class="title"><span style="font-weight: 600">2016 Mercedes C63S AMG</span></div>
                             <div class="car-detail-list">
@@ -579,7 +579,7 @@
                             <!-- Start Single Product -->
                             <div class="single-product mx-3">
                                 <div class="product-img">
-                                    <img class="default-img" src="images/impefection1.png" alt="Impefection">
+                                    <img class="default-img" src="images/imspection1.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                 </div>
                                 <div class="product-content text-center text-md">
                                     <span>Odometer inaccurate</span>
@@ -589,7 +589,7 @@
                             <!-- Start Single Product -->
                             <div class="single-product mx-3">
                                 <div class="product-img">
-                                    <img class="default-img" src="images/impefection2.png" alt="Impefection">
+                                    <img class="default-img" src="images/imspection2.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                 </div>
                                 <div class="product-content text-center text-md">
                                     <span>Leather scratched</span>
@@ -599,7 +599,7 @@
                             <!-- Start Single Product -->
                             <div class="single-product mx-3">
                                 <div class="product-img">
-                                    <img class="default-img" src="images/impefection3.png" alt="Impefection">
+                                    <img class="default-img" src="images/imspection3.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                 </div>
                                 <div class="product-content text-center text-md">
                                     <span>Roof scratched</span>
@@ -609,7 +609,7 @@
                             <!-- Start Single Product -->
                             <div class="single-product mx-3">
                                 <div class="product-img">
-                                    <img class="default-img" src="images/impefection4.png" alt="Impefection">
+                                    <img class="default-img" src="images/imspection4.png" alt="Imspection" data-toggle="modal" data-target="#imageModal">
                                 </div>
                                 <div class="product-content text-center text-md">
                                     <span>OEM handle scratched</span>
@@ -858,7 +858,18 @@
             </div>
         </div>
         
-        <!-- Modal startModal1-->
+        <!-- Modal imageModal-->
+        <div class="modal fade" id="imageModal" tabindex="-1" role="dialog">
+            <button type="button" class="close" style="margin-top: 10px;" data-dismiss="modal" aria-label="Close"><span class="fa fa-times" aria-hidden="true"></span></button>
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <img alt="image" id="modal-image">
+                </div>
+            </div>
+        </div>
+        <!-- imageModal end -->
+
+        <imageodal -->
         <div class="modal fade" id="startModal1" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-md" role="document">
                 <div class="modal-content">
@@ -1315,5 +1326,6 @@
 
     <script src="js/tab.js"></script>
     <script src="js/car-detail.js"></script>
+    <script src="js/image-modal.js"></script>
 </body>
 </html>

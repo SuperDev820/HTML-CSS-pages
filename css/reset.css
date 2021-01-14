@@ -1078,9 +1078,13 @@ object {
 	display:inline-block;
 }
 .modal-dialog {
-	margin: 12% auto 8%;
+	margin: 2% auto;
 }
 
+.modal-xl {
+	max-width: 1400px;
+	width: 1400px;
+}
 .modal-lg {
 	max-width: 1200px;
 	width: 1200px;
@@ -1154,7 +1158,6 @@ object {
 	}
 }
 .modal-dialog .modal-content .modal-header .close {
-	color: #fff;
 	cursor: pointer;
 	opacity: 1;
 	padding: 0;
