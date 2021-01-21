@@ -194,6 +194,13 @@ Version:1.0
 	border-radius: 35px;
 	height: 40px;
 	width: 48%;
+	transition: all 0.4s ease;
+}
+.button-yellow:hover {
+	background-color: white;
+	color:  #f9693b;
+	border: 1px solid #f9693b !important;
+	border-radius: 35px;
 }
 .button-default-yellow {
 	background: white;
@@ -201,7 +208,12 @@ Version:1.0
     height: 40px;
     width: 48%;
 	color: #f9693b !important;
+	transition: all 0.4s ease;
     border-radius: 35px;
+}
+.button-default-yellow:hover {
+	background-color: #f9693b;
+	color: white !important;
 }
 .button-primary{
 	background: #182861;
@@ -209,25 +221,47 @@ Version:1.0
 	border: none !important;
 	border-radius: 35px;
 	height: 40px;
+	transition: all 0.4s ease;
+}
+.button-primary:hover {
+	color: #182861 !important;
+	background-color: white;
+	border: 1px solid #182861 !important;
+	border-radius: 35px;
 }
 .button-default-primary {
     border: 1px solid #182861;
     border-radius: 35px;
 	width: 75%;
 	height: 37px;
-    color: #182861 !important;
+	color: #182861 !important;
+	transition: all 0.4s ease;
+}
+.button-default-primary:hover {
+	color: white !important;
+	background-color: #182861;
 }
 .button-secondary{
 	background: #f6f7fb;
     color: grey;
 	border: none !important;
 	border-radius: 35px;
+	transition: all 0.4s ease;
+}
+.button-secondary:hover {
+	color: #f6f7fb;
+    background-color: grey;
 }
 .button-default{
 	background: white;
-	color: black;
-	border-color: blue;
+	color: #149de6;
+	border-color: #149de6;
 	border-radius: 35px;
+	transition: all 0.4s ease;
+}
+.button-default:hover {
+	color: white;
+	background-color:  #149de6;
 }
 .buy-trade-btn {
 	width: 100%;
@@ -235,14 +269,14 @@ Version:1.0
   	height: 50px;
   	margin: 25px 0;
   	background: white;
-    border:2px solid #182861;
+    border:1px solid #182861;
     transition: all 0.4s ease;
     font-size: 16px;
   }
-/* .buy-trade-btn:hover {
+.buy-trade-btn:hover {
     background: #182861;
 	color: white;
-} */
+}
 
 #scrollUp {
 	right: 10px;
@@ -1838,11 +1872,12 @@ Version:1.0
     bottom: 0;
     margin-right: 12px;
     margin-bottom: 6px;
-    font-size: 18px;
+	font-size: 18px;
+	transition: all 0.4s ease;
 }
-.img-heart1:hover {
+/* .img-heart1:hover {
 	color:#f9693b;
-}
+} */
 .img-heart2{
 	color:#f9693b;
 	position:absolute;
@@ -1850,20 +1885,24 @@ Version:1.0
     bottom: 0;
     margin-right: 12px;
     margin-bottom: 6px;
-    font-size: 18px;
+	font-size: 18px;
+	transition: all 0.4s ease;
 }
-.img-heart2:hover {
+/* .img-heart2:hover {
 	color: white;
-}
+} */
 
 .sticky-heart {
 	font-size: 26px;
+	color:#f9693b;
+	width: 26px;
 }
 .sticky-heart i {
 	cursor: pointer;
+	transition: all 0.4s ease;
 }
 .sticky-heart:hover {
-	color: #f9693b;
+	font-size: 24px;
 }
 
 .header-heart {
@@ -1871,10 +1910,10 @@ Version:1.0
 }
 .header-heart i {
 	cursor: pointer;
-	transition: all 0.1s ease;
+	transition: all 0.4s ease;
 }
 .header-heart:hover {
-	font-size: 34px;
+	font-size: 28px;
 }
 
 .img-title{
@@ -1889,7 +1928,7 @@ Version:1.0
     padding-left: 5px;
     border-radius: 10px;
 }
-}
+
 .single-product .product-img a img {
   width: 100%;
 }
@@ -5787,4 +5826,29 @@ Version:1.0
   #modal-image {
 	width: 100%;
 	height: 700px;
+  }
+  
+  #dropdown-menu::after {
+  	position: absolute;
+    bottom: 100%;
+    right: 0%;
+    margin-right: 123px;
+    content: " ";
+    border-bottom: 20px solid rgba(0, 0, 0, .15);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+  }
+  #dropdown-menu::before {
+  	position: absolute;
+    bottom: 100%;
+    right: 0%;
+    margin-right: 125px;
+    content: " ";
+    border-bottom: 18px solid white;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    z-index: 1001;
+  }
+  body {
+	  overflow-x: hidden;
   }
