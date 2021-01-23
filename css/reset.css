@@ -10,7 +10,7 @@ Version:1.0
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: 'helveticaneue';
+	font-family: 'Avenir Next';
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -171,22 +171,31 @@ input,
 select,
 optgroup,
 textarea {
-	color: #000000;
-	font-family: 'helveticaneue';
+	color: #454F5B;
+	font-family: 'Avenir Next';
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-size: 44px;
 	font-weight: 700;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 26px;
+}
+h2, h3, h4, h5, h6 {
+	font-weight: 600;
 	margin: 0;
 }
 p {
-	color:#757575;
 	margin: 0;
 	line-height:24px;
 }
-a,button,input{
+a {
 	font-weight:400;
 }
 img,a,input,h1, h2, h3, h4, h5, h6{
@@ -202,7 +211,7 @@ address {
 }
 pre {
 	background: #eee;
-	font-family: 'helveticaneue';
+	font-family: 'Avenir Next';
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -212,7 +221,7 @@ pre {
 	padding: 1.6em;
 }
 code, kbd, tt, var {
-	font-family: 'helveticaneue';
+	font-family: 'Avenir Next';
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -240,53 +249,58 @@ big {
 	margin-bottom: 40px;
 }
 .section-title h2 {
-	font-size: 30px;
+	font-size: 32px;
 	text-transform: capitalize;
 	position: relative;
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 10px;
 	padding-top: 15px;
-}
-.section-title h1 {
-	font-size: 2.5rem;
-	text-transform: capitalize;
-	position: relative;
-	font-weight: 700;
-	margin-bottom: 10px;
-	padding-top: 15px;
-}
-.section-title p {
-	text-transform: capitalize;
-	position: relative;
-	padding-top: 20px;
-	font-weight: 600;
-}
-.section-title p::before {
-	position: absolute;
-	content: "";
-	height: 4px;
-	width: 50px;
-	background: #f9693b;
-	left: 50%;
-	top: 0;
-	margin-left: -25px;
-}
-.section-title h1::before {
-	position: absolute;
-	content: "";
-	height: 4px;
-	width: 50px;
-	background: #f9693b;
-	left: 50%;
-	top: 0;
-	margin-left: -25px;
 }
 .section-title h2::before {
 	position: absolute;
 	content: "";
 	height: 4px;
 	width: 50px;
-	background: #1aad1a;
+	/* background: #1aad1a; */
+	background: #f9693b;
+	left: 50%;
+	top: 0;
+	margin-left: -25px;
+}
+.section-title h1 {
+	font-size: 44px;
+	text-transform: capitalize;
+	position: relative;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.section-title p {
+	text-transform: capitalize;
+	font-size: 26px;
+	position: relative;
+	font-weight: 400;
+	margin-bottom: 20px;
+	line-height: 28px;
+}
+/*.section-title p::before {
+	position: absolute;
+	content: "";
+	height: 4px;
+	width: 50px;
+	background: #f9693b;
+	left: 50%;
+	top: 0;
+	margin-left: -25px;
+}*/
+.section-title.title-bar h1 {
+	padding-top: 15px;
+}
+.section-title.title-bar h1::before {
+	position: absolute;
+	content: "";
+	height: 4px;
+	width: 50px;
+	background: #f9693b;
 	left: 50%;
 	top: 0;
 	margin-left: -25px;

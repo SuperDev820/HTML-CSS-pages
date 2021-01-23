@@ -1,14 +1,14 @@
 $(document).ready(function(){
   $("#productInfoTab").find(".active").parent("li").css("border-bottom-color", "#182861");
-  $("#productInfoTab").find(".active").parent("li").css("background-color", "#e5f0fb");
+  $("#productInfoTab").find(".active").parent("li").css("background-color", "#F5F9FF");
   $("#productInfoTab").find("a").click(function(){
     setTimeout(
 	  function() 
 	  {
-	  	$("#productInfoTab").find("li").css("border-bottom-color", "#bfb8b8");
-	  	$("#productInfoTab").find("li").css("background-color", "#eee");
+	  	$("#productInfoTab").find("li").css("border-bottom-color", "#979797");
+	  	$("#productInfoTab").find("li").css("background-color", "#ECECEC");
 	    $("#productInfoTab").find(".active").parent("li").css("border-bottom-color", "#182861");
-	    $("#productInfoTab").find(".active").parent("li").css("background-color", "#e5f0fb");
+	    $("#productInfoTab").find(".active").parent("li").css("background-color", "#F5F9FF");
 	  }, 100);
     
   });
@@ -60,16 +60,21 @@ $(document).ready(function(){
   });
 
   $("#serviceTermsTab").find(".active").parent("li").css("border-bottom-color", "black");
-  $("#serviceTermsTab").find(".active").css("font-weight", "700");
+  $("#serviceTermsTab").find(".active").css("color", "black");
   $("#serviceTermsTab").find("a").click(function(){
     setTimeout(
 	  function() 
 	  {
 	  	$("#serviceTermsTab").find("li").css("border-bottom-color", "white");
-	  	$("#serviceTermsTab").find("a").css("font-weight", "400");
+	  	$("#serviceTermsTab").find("a").css("color", "#454F5B");
 	    $("#serviceTermsTab").find(".active").parent("li").css("border-bottom-color", "black");
-	    $("#serviceTermsTab").find(".active").css("font-weight", "700");
+	    $("#serviceTermsTab").find(".active").css("color", "black");
 	  }, 100);
     
+  });
+
+  $(".date-div").click(function(){
+	  console.log("asdfas")
+	$(this).css("border-color", "#454F5B");
   });
 });
