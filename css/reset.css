@@ -675,7 +675,7 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: #000000;
+	/* color: #000000; */
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 3px;
@@ -1105,8 +1105,8 @@ object {
 }
 
 .modal-md {
-	max-width: 600px;
-	width: 600px;
+	max-width: 650px;
+	width: 650px;
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
@@ -1340,7 +1340,7 @@ object {
 	padding: 0 0 0 12px !important;
 	line-height: 46px;
 	font-size: 18px;
-	font-weight: 400;
+	/* font-weight: 400; */
 	border: 1px solid #ccc;
 	border-radius: 0;
 }

@@ -74,7 +74,19 @@ $(document).ready(function(){
   });
 
   $(".date-div").click(function(){
-	  console.log("asdfas")
+	$(".date-div").css("border-color", "white");
+	$(".date-div").css("color", "black");
+	$(".date-div").css("font-weight", "400");
 	$(this).css("border-color", "#454F5B");
+	$(this).css("color", "#182861");
+	$(this).css("font-weight", "600");
+  });
+  $(".time-div").click(function(){
+	$(".time-div").css("border-color", "white");
+	$(".time-div").css("color", "black");
+	$(".time-div").css("font-weight", "400");
+	$(this).css("border-color", "#454F5B");
+	$(this).css("color", "#182861");
+	$(this).css("font-weight", "600");
   });
 });
