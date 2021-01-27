@@ -10,6 +10,22 @@
                  700    bold
                  800    black
     
-    h1 48px 700 weight
+    h1 44px 700 weight
     h2 32px 600 
-    h3 28px 600
+    h3 26px 600
+
+    .text-xs {
+	    font-size: 12px;
+    }
+    .text-sm {
+        font-size: 14px;
+    }
+    .text-md {
+        font-size: 18px;
+    }
+    .text-lg {
+        font-size: 26px;
+    }
+    .text-xl {
+        font-size: 32px;
+    }

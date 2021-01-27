@@ -189,7 +189,7 @@ Version:1.0
 
 .button-yellow{
 	background: #f9693b;
-    color: white;
+    color: white !important;
 	border: none !important;
 	border-radius: 35px;
 	height: 40px;
@@ -198,7 +198,7 @@ Version:1.0
 }
 .button-yellow:hover {
 	background-color: white;
-	color:  #f9693b;
+	color:  #f9693b !important;
 	border: 1px solid #f9693b !important;
 	border-radius: 35px;
 }
@@ -5855,6 +5855,9 @@ Version:1.0
   .fw-700 {
 	font-weight: 700;
   }
+  .fw-800 {
+	font-weight: 800;
+  }
 
   .top-images {
 	padding-top: 26px;
@@ -5946,4 +5949,16 @@ Version:1.0
   #driveModal1 .time-div {
     padding: 10px;
     color: black;
+  }
+
+  #aboutusTab li a {
+	width: 250px;
+    height: 60px;
+	background-color: white;
+  }
+
+  .aboutus-card {
+	padding: 30px 35px;
+	background-color: white;
+	margin-bottom: 15px;
   }

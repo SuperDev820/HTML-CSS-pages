@@ -73,6 +73,20 @@ $(document).ready(function(){
     
   });
 
+  $("#aboutusTab").find(".active").css("color", "white");
+  $("#aboutusTab").find(".active").css("background-color", "#f9693b");
+  $("#aboutusTab").find("a").click(function(){
+    setTimeout(
+	  function() 
+	  {
+	  	$("#aboutusTab").find("a").css("color", "#454F5B");
+	  	$("#aboutusTab").find("a").css("background-color", "white");
+		$("#aboutusTab").find(".active").css("color", "white");
+		$("#aboutusTab").find(".active").css("background-color", "#f9693b");
+	  }, 100);
+    
+  });
+
   $(".date-div").click(function(){
 	$(".date-div").css("border-color", "white");
 	$(".date-div").css("color", "black");
