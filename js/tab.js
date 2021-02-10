@@ -1,14 +1,14 @@
 $(document).ready(function(){
-  $("#productInfoTab").find(".active").parent("li").css("border-bottom-color", "#182861");
-  $("#productInfoTab").find(".active").parent("li").css("background-color", "#F5F9FF");
+  $("#productInfoTab").find(".active").parent("li").css("border-color", "#182861");
+  $("#productInfoTab").find(".active").parent("li").css("background-color", "#F6F5FF");
   $("#productInfoTab").find("a").click(function(){
     setTimeout(
 	  function() 
 	  {
-	  	$("#productInfoTab").find("li").css("border-bottom-color", "#979797");
+	  	$("#productInfoTab").find("li").css("border-color", "#ECECEC");
 	  	$("#productInfoTab").find("li").css("background-color", "#ECECEC");
-	    $("#productInfoTab").find(".active").parent("li").css("border-bottom-color", "#182861");
-	    $("#productInfoTab").find(".active").parent("li").css("background-color", "#F5F9FF");
+	    $("#productInfoTab").find(".active").parent("li").css("border-color", "#182861");
+	    $("#productInfoTab").find(".active").parent("li").css("background-color", "#F6F5FF");
 	  }, 100);
     
   });

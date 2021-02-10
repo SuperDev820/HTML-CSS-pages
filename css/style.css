@@ -233,7 +233,7 @@ Version:1.0
     border: 1px solid #182861;
     border-radius: 35px;
 	width: 75%;
-	height: 37px;
+	height: 38px;
 	color: #182861 !important;
 	background: white;
 	transition: all 0.4s ease;
@@ -5419,7 +5419,7 @@ Version:1.0
     text-align: center;
     background: #ECECEC;
     padding: 22px 0;
-    border-bottom: 4px solid #979797;
+    border: 2px solid #ECECEC;
     margin: 0 4px;
   }
   .product-info ul li i{
@@ -5428,6 +5428,21 @@ Version:1.0
   .product-info ul li a.active i{
   	color: black;
   }
+
+  .product-info-inspection ul li {
+    width: 25%;
+    font-size: 22px;
+    text-align: center;
+    padding: 22px 0;
+    margin: 0 4px;
+  }
+  .product-info-inspection ul li i{
+  	color: #868e96;
+  }
+  .product-info-inspection ul li a.active i{
+  	color: black;
+  }
+
   .search-filter-term {
     color: #f9693b;
     padding-right: 10px;
@@ -5643,7 +5658,7 @@ Version:1.0
   }
   .accutrade-select .nice-select {
     width: 20%;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 40px;
     padding: 6px 0;
   }
@@ -5719,9 +5734,9 @@ Version:1.0
   .home-inputButton {
 	box-shadow: 0 5px 15px 0 #afafaf;
 	width: 8%;
-	height: 44px;
+	height: 43px;
 	margin-left: -5px;
-	border-radius: 0 25px 25px 0;
+	border-radius: 0;
   }
 
   .spec-info {
@@ -5762,7 +5777,7 @@ Version:1.0
   	height: auto;
   }
   .inspection-table thead tr {
-    background: #e5f0fb;
+    background: #f6f5ff;
     font-size: 22px;
   }
   .inspection-table thead th {
@@ -5774,7 +5789,7 @@ Version:1.0
   .inspection-table td {
     font-size: 16px;
     text-align: center;
-    background: #e5f0fb;
+    background: #f6f5ff;
     border: 5px solid white;
     padding: 20px;
   }
@@ -5844,12 +5859,12 @@ Version:1.0
 	  font-size: 34px;
   }
   .producttab-div {
-  	background: #F5F9FF;
-  	padding: 22px 150px;
+  	background: #ECECEC;
+  	padding: 18px 150px;
   }
   .producttab-div span {
   	padding-right: 15px;
-  	color: #65B59D;
+  	color: #009366;
   }
 
   .fw-300 {

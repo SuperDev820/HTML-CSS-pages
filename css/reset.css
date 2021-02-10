@@ -256,7 +256,7 @@ big {
 	text-transform: capitalize;
 	position: relative;
 	font-weight: 700;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	padding-top: 15px;
 }
 .section-title h2::before {
@@ -322,9 +322,6 @@ big {
 	opacity: 0.4;
 	background: #000;
 	content: "";
-	-webkit-transition:all 0.4s ease;
-	-moz-transition:all 0.4s ease;
-	transition:all 0.4s ease;
 }
 /* Bread Crumbs */
 .breadcrumbs {
