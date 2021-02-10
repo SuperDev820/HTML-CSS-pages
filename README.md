@@ -10,9 +10,9 @@
                  700    bold
                  800    black
     
-    h1 44px 700 weight
-    h2 32px 600 
-    h3 26px 600
+    h1 36px 700 weight
+    h2 28px 700 
+    h3 22px 600
 
     .text-xs {
 	    font-size: 12px;
@@ -24,8 +24,8 @@
         font-size: 18px;
     }
     .text-lg {
-        font-size: 26px;
+        font-size: 22px;
     }
     .text-xl {
-        font-size: 32px;
+        font-size: 28px;
     }

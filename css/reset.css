@@ -178,16 +178,19 @@ textarea {
 	line-height: 24px;
 }
 h1 {
-	font-size: 44px;
-	font-weight: 700;
+	font-size: 36px;
 }
 h2 {
-	font-size: 32px;
+	font-size: 28px;
 }
 h3 {
-	font-size: 26px;
+	font-size: 22px;
 }
-h2, h3, h4, h5, h6 {
+h1, h2 {
+	font-weight: 700;
+	margin: 0;
+}
+h3, h4, h5, h6 {
 	font-weight: 600;
 	margin: 0;
 }
@@ -249,10 +252,10 @@ big {
 	margin-bottom: 40px;
 }
 .section-title h2 {
-	font-size: 32px;
+	font-size: 28px;
 	text-transform: capitalize;
 	position: relative;
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 10px;
 	padding-top: 15px;
 }
@@ -268,19 +271,18 @@ big {
 	margin-left: -25px;
 }
 .section-title h1 {
-	font-size: 44px;
+	font-size: 36px;
 	text-transform: capitalize;
 	position: relative;
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 .section-title p {
-	text-transform: capitalize;
-	font-size: 26px;
+	font-size: 16px;
 	position: relative;
 	font-weight: 400;
 	margin-bottom: 20px;
-	line-height: 32px;
+	line-height: 24px;
 }
 /*.section-title p::before {
 	position: absolute;
