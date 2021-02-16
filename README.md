@@ -10,10 +10,11 @@
                  700    bold
                  800    black
     
-    h1 36px 700 weight
-    h2 28px 700 
-    h3 22px 600
-
+       48px 2.5vw 1920px
+    h1 36px 1.875vw 700 weight 
+    h2 28px 1.46vw 700 
+    h3 22px 1.15vw 600
+       16px 0.84vw
     .text-xs {
 	    font-size: 12px;
     }

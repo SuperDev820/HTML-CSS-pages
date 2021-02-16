@@ -307,9 +307,13 @@ big {
 	top: 0;
 	margin-left: -25px;
 }
-.container{
-	max-width:1250px;
+
+@media (min-width: 1600px) {
+	.container {
+	    max-width: 1250px;
+	}
 }
+
 .overlay{
 	position:relative
 }
